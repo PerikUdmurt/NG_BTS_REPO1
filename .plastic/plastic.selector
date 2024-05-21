@@ -1,0 +1,4 @@
+repository "NG_BTS_REPO1@Dalinovsky@cloud"
+  path "/"
+    smartbranch "/main/stable/Perik Features" 
+     

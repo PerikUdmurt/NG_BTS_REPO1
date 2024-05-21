@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbc1f3762c2bb2f408d9fa0f63f405b2, type: 3}
+  m_Name: Rifle
+  m_EditorClassIdentifier: 
+  weaponName: 
+  decription: 
+  weaponPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 5772312620936051305, guid: ac381bdcc4e04f64aa67f00ac08fe226, type: 3}
+  damage: 5
+  shootCoolDown: 0.1
+  maxAmmo: 30
+  reloadDuration: 3
+  numOfBullets: 1
+  bulletSpeed: 16
+  spread: 5
+  knockback: 5
+  bounce: 0
+  rotationSpeed: 10
+  bulletDestroyTime: 2
+  piercing: 0
+  effects: []
+  playerMode: 1

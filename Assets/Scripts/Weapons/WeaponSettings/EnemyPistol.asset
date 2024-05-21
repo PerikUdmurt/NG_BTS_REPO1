@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbc1f3762c2bb2f408d9fa0f63f405b2, type: 3}
+  m_Name: EnemyPistol
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 5772312620936051305, guid: c2b7cbe35bfa4da47a9141800c3955ae, type: 3}
+  damage: 10
+  shootCoolDown: 5
+  maxAmmo: 5
+  reloadDuration: 2
+  numOfBullets: 1
+  bulletSpeed: 13
+  spread: 10
+  knockback: 5
+  bounce: 0
+  rotationSpeed: 1
+  bulletDestroyTime: 5
+  piercing: 0
+  effects: []
+  playerMode: 0

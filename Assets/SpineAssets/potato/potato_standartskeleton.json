@@ -1,0 +1,453 @@
+{
+"skeleton": {
+	"hash": "GB/jsEf+tQ1fzlez/xfgLcZzSg0",
+	"spine": "3.8.0",
+	"x": -282.01,
+	"y": -59.52,
+	"width": 729.45,
+	"height": 945.74,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "body", "parent": "root", "x": -19.69, "y": 201.47 },
+	{ "name": "body3", "parent": "body", "length": 562.18, "rotation": 89.08, "x": -3.39, "y": 63.34 },
+	{ "name": "lleg", "parent": "body", "length": 136.42, "rotation": -99.99, "x": -100.98, "y": -71.92 },
+	{ "name": "rleg", "parent": "body", "length": 140.66, "rotation": -82.41, "x": 143.32, "y": -61.61 },
+	{ "name": "shotgun", "parent": "body3", "length": 503.5, "rotation": -89.08, "x": 238.29, "y": -24.32 },
+	{ "name": "larm", "parent": "shotgun", "length": 119.26, "rotation": 10.99, "x": -75.21, "y": -73.63 },
+	{ "name": "rarm", "parent": "shotgun", "length": 132.26, "rotation": 75.05, "x": 380.9, "y": -114.87 },
+	{ "name": "aim_ik", "parent": "root", "x": 1869.45, "y": 516.84, "color": "ff3f00ff" }
+],
+"slots": [
+	{ "name": "shadow", "bone": "root", "attachment": "shadow" },
+	{ "name": "body", "bone": "body3", "attachment": "body" },
+	{ "name": "gun", "bone": "shotgun", "attachment": "gun_SP" },
+	{ "name": "rarm", "bone": "rarm", "attachment": "rarm" },
+	{ "name": "rleg", "bone": "rleg", "attachment": "rleg" },
+	{ "name": "lleg", "bone": "lleg", "attachment": "lleg" },
+	{ "name": "larm", "bone": "larm", "attachment": "larm" },
+	{ "name": "AK", "bone": "root" }
+],
+"ik": [
+	{
+		"name": "aim_ik",
+		"bones": [ "shotgun" ],
+		"target": "aim_ik"
+	}
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"rleg": {
+				"rleg": { "x": 72.24, "y": 2.7, "rotation": 82.41, "width": 92, "height": 143 }
+			},
+			"shadow": {
+				"shadow": { "x": 5.49, "y": 14.98, "width": 575, "height": 149 }
+			},
+			"body": {
+				"body": { "x": 238.45, "y": -0.25, "rotation": -89.08, "width": 523, "height": 766 }
+			},
+			"rarm": {
+				"rarm": { "x": 59.05, "y": 3.34, "rotation": -75.05, "width": 97, "height": 142 }
+			},
+			"larm": {
+				"larm": { "x": 63.3, "y": 1.09, "rotation": -10.99, "width": 142, "height": 97 }
+			},
+			"lleg": {
+				"lleg": { "x": 68.46, "y": -0.47, "rotation": 99.99, "width": 93, "height": 143 }
+			}
+		}
+	},
+	{
+		"name": "Potato_AK",
+		"attachments": {
+			"gun": {
+				"gun_SP": {
+					"name": "AK",
+					"x": 246.08,
+					"y": -101.82,
+					"scaleX": 1.1651,
+					"scaleY": 1.1651,
+					"rotation": -0.6,
+					"width": 914,
+					"height": 251
+				}
+			}
+		}
+	},
+	{
+		"name": "Potato_GrenadeLauncher",
+		"attachments": {
+			"gun": {
+				"gun_SP": {
+					"name": "grenade_launcher",
+					"x": 187.21,
+					"y": -55.25,
+					"scaleX": 1.052,
+					"scaleY": 1.052,
+					"width": 876,
+					"height": 271
+				}
+			}
+		}
+	},
+	{
+		"name": "Potato_Mosin",
+		"attachments": {
+			"gun": {
+				"gun_SP": {
+					"name": "mosin",
+					"x": 337.59,
+					"y": -58.11,
+					"scaleX": 1.0954,
+					"scaleY": 1.0954,
+					"rotation": -0.6,
+					"width": 1110,
+					"height": 162
+				}
+			}
+		}
+	},
+	{
+		"name": "Potato_Shotgun",
+		"attachments": {
+			"gun": {
+				"gun_SP": { "name": "shotgun", "x": 203.4, "y": -37.24, "rotation": -0.6, "width": 805, "height": 156 }
+			}
+		}
+	}
+],
+"animations": {
+	"damage": {
+		"slots": {
+			"lleg": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "color": "ffffff9e", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"larm": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "color": "ffffff9e", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"rarm": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "color": "ffffff9e", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"rleg": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "color": "ffffff9e", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"body": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "color": "ffffff9e", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"gun": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "color": "ffffff9e", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			},
+			"shadow": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "color": "ffffff9e", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"body3": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "angle": 14.97, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "y": 1.12, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333 }
+				]
+			},
+			"lleg": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "x": 18.56, "y": 32.49, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333 }
+				]
+			},
+			"shotgun": {
+				"rotate": [
+					{ "angle": 0.6 }
+				]
+			},
+			"aim_ik": {
+				"rotate": [
+					{ "time": 0.1667, "angle": -14.49 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "x": -207.3, "y": -326.42, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"death": {
+		"slots": {
+			"lleg": {
+				"color": [
+					{ "time": 0.4, "color": "ffffff39", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"larm": {
+				"color": [
+					{ "time": 0.4, "color": "ffffff39", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"rarm": {
+				"color": [
+					{ "time": 0.4, "color": "ffffff39", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"rleg": {
+				"color": [
+					{ "time": 0.4, "color": "ffffff39", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"body": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffff81", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			},
+			"gun": {
+				"color": [
+					{ "time": 0.4, "color": "ffffff39", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "color": "ffffff00" }
+				]
+			},
+			"shadow": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffff87", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"body3": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "angle": 79.79 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "x": -181.9, "y": -117.18, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": -171.13, "y": -115.03 }
+				]
+			},
+			"lleg": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "angle": 58.39 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "x": -41.3, "y": 69.29, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": -57.83, "y": 57.83 }
+				]
+			},
+			"rleg": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "angle": 54.52 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "x": -54.09, "y": 157.15, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": -255.35, "y": 7 }
+				]
+			},
+			"shotgun": {
+				"rotate": [
+					{ "angle": 0.6 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "x": -28.86, "y": 110.73, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": 82.4, "y": 25.13 }
+				]
+			},
+			"rarm": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": -82.42, "y": -54.73 }
+				]
+			},
+			"aim_ik": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.4, "x": -669.87, "y": -704.85 }
+				]
+			}
+		}
+	},
+	"running": {
+		"slots": {
+			"shadow": {
+				"color": [
+					{ "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "color": "0ad9ffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"rleg": {
+				"rotate": [
+					{ "angle": -15.52 }
+				],
+				"translate": [
+					{ "x": 55.61, "y": 106.22, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "x": 23.66, "y": 3.96, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": 55.61, "y": 106.22 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "x": 0.901, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5 }
+				]
+			},
+			"body3": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "angle": -2.57, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "x": 40.31, "y": -11.12, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5 }
+				]
+			},
+			"lleg": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "x": 58.78, "y": 80.34, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5 }
+				],
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "x": 0.92, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5 }
+				]
+			},
+			"shotgun": {
+				"rotate": [
+					{ "angle": 0.6 }
+				],
+				"translate": [
+					{ "x": -3.67, "y": 0.13, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.0667, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": -52.86, "y": 1.93, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": -3.67, "y": 0.13 }
+				]
+			},
+			"aim_ik": {
+				"translate": [
+					{ "x": -39.4, "y": -177.31, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2333, "x": -21.49, "y": -41.19, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": -39.4, "y": -177.31 }
+				]
+			}
+		}
+	},
+	"shooting": {
+		"bones": {
+			"body3": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "angle": 7.46, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "x": -11.98, "y": -3.42, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667 }
+				]
+			},
+			"lleg": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "angle": -3.7, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667 }
+				]
+			},
+			"rleg": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "angle": -8.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667 }
+				]
+			},
+			"shotgun": {
+				"rotate": [
+					{ "angle": 0.44 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "x": 8.46, "y": 34.48, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667 }
+				]
+			},
+			"larm": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "angle": -4.98, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667 }
+				],
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "x": 4.72, "y": 8.13, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667 }
+				]
+			},
+			"rarm": {
+				"rotate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "angle": 20.45, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667 }
+				]
+			},
+			"aim_ik": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1, "x": -518.1, "y": 77.36, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,83 @@
+
+potato.png
+size: 1894,809
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+AK
+  rotate: false
+  xy: 836, 393
+  size: 914, 250
+  orig: 914, 251
+  offset: 0, 1
+  index: -1
+body
+  rotate: false
+  xy: 160, 41
+  size: 523, 766
+  orig: 523, 766
+  offset: 0, 0
+  index: -1
+grenade_launcher
+  rotate: false
+  xy: 836, 120
+  size: 876, 271
+  orig: 876, 271
+  offset: 0, 0
+  index: -1
+larm
+  rotate: true
+  xy: 1752, 375
+  size: 142, 97
+  orig: 142, 97
+  offset: 0, 0
+  index: -1
+lleg
+  rotate: false
+  xy: 1797, 664
+  size: 93, 143
+  orig: 93, 143
+  offset: 0, 0
+  index: -1
+mosin
+  rotate: false
+  xy: 685, 645
+  size: 1110, 162
+  orig: 1110, 162
+  offset: 0, 0
+  index: -1
+rarm
+  rotate: true
+  xy: 836, 21
+  size: 97, 142
+  orig: 97, 142
+  offset: 0, 0
+  index: -1
+revolver
+  rotate: true
+  xy: 1714, 26
+  size: 347, 178
+  orig: 347, 178
+  offset: 0, 0
+  index: -1
+rleg
+  rotate: false
+  xy: 1797, 519
+  size: 92, 143
+  orig: 92, 143
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 685, 68
+  size: 575, 149
+  orig: 575, 149
+  offset: 0, 0
+  index: -1
+shotgun
+  rotate: true
+  xy: 2, 2
+  size: 805, 156
+  orig: 805, 156
+  offset: 0, 0
+  index: -1

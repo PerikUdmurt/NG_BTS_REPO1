@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0b2e8cb8ddc194e91b2dee38f2eada, type: 3}
+  m_Name: MaxAmmo
+  m_EditorClassIdentifier: 
+  _Controller: {fileID: 0}
+  skillImage: {fileID: 0}
+  skillName: MaxAmmo
+  Class: 
+  skillDescription: + 10 Bullets
+  color: {r: 0.71132076, g: 1, b: 0.94696265, a: 1}
+  includeSkillsToList: []
+  excludeSkillsToList: []
+  extraDamage: 0
+  extraShootCoolDown: 0
+  extraMaxAmmo: 10
+  extraReloadDuration: 0
+  extraNumOfBullets: 0
+  extraBulletSpeed: 0
+  extraSpread: 0
+  extraKnockback: 0
+  extraBounce: 0
+  extraBulletDestroyTime: 0
+  addPiercing: 0
+  effects: []
